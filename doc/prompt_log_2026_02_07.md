@@ -71,3 +71,38 @@
 - `doc/prompt_log_2026_02_07.md` — 本 Prompt 紀錄檔
 
 **語言要求**：所有輸出使用台灣繁體中文（zh-TW）
+
+---
+
+## Prompt #4–#7（跨多次會話延續）
+
+**時間**：2026-02-07 至 2026-02-08
+
+**任務**：深度閱讀剩餘所有區段 Markdown 檔案並撰寫詳盡說明（最終批次）
+
+**指令摘要**：
+
+延續 Prompt #2–#3 的深度閱讀任務，跨多次會話完成 `doc/markdown-inventory.md` 中所有尚未處理的區段。涵蓋的區段包括：
+
+- **Prompt #4**：`docs/channels/` 23 檔、`docs/start/` 12 檔
+- **Prompt #5**：`docs/cli/` 20 檔、`docs/gateway/` 8 檔、`docs/tools/` 7 檔
+- **Prompt #6**：`docs/plugins/` 8 檔、`docs/automation/` 5 檔
+- **Prompt #7（最終批次）**：剩餘 11 區段約 200 個檔案
+  1. `docs/nodes/` — 8 檔（節點系統）
+  2. `docs/web/` — 4 檔（Web UI）
+  3. `docs/providers/` — 21 檔（LLM 提供商）
+  4. `docs/platforms/` — 27 檔（平台部署含 macOS 18 子頁）
+  5. `docs/reference/templates/` — 13 檔（系統提示樣版）
+  6. `docs/refactor/` — 5 檔（重構提案）
+  7. `docs/experiments/` — 6 檔（實驗性功能）
+  8. `docs/help/` — 5 檔（使用者協助）
+  9. `docs/other/` — 4 檔（雜項）
+  10. `extensions/` — 49 檔（外掛擴展含 OpenProse 語言系統）
+  11. `skills/` — 58 檔（代理技能）
+
+**品質確認**：全部 447 筆索引條目已標記 `✅ PROCESSED` 並附詳盡繁體中文說明，QA 通過。
+
+**產出物**：
+- `doc/markdown-inventory.md` — 最終完成索引清冊（447/447 條目全部完成）
+
+**語言要求**：所有輸出使用台灣繁體中文（zh-TW）
