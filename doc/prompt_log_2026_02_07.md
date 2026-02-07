@@ -51,3 +51,23 @@
 - `doc/prompt_log_2026_02_07.md` — 本 Prompt 紀錄檔
 
 **語言要求**：所有輸出使用台灣繁體中文（zh-TW）
+
+---
+
+## Prompt #3
+
+**時間**：2026-02-07
+
+**任務**：深度閱讀 `docs/concepts/` 區段所有 Markdown 檔案並撰寫詳盡說明
+
+**指令摘要**：
+
+延續 Prompt #2 的深度閱讀任務，針對 `doc/markdown-inventory.md` 中 8.4 `docs/concepts/` 區段列出的 31 個 Markdown 檔案，逐一深度閱讀完整內容並撰寫詳盡說明。處理流程同 Prompt #2。
+
+**本次完成範圍**：`docs/concepts/` 區段 31 個檔案（architecture.md 至 usage-tracking.md）
+
+**產出物**：
+- `doc/markdown-inventory.md` — 更新索引清冊（新增 31 個 `docs/concepts/` 檔案的詳盡說明，累計 131/801）
+- `doc/prompt_log_2026_02_07.md` — 本 Prompt 紀錄檔
+
+**語言要求**：所有輸出使用台灣繁體中文（zh-TW）
