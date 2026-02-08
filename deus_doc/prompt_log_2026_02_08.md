@@ -39,3 +39,45 @@
 **語言要求**：所有輸出使用台灣繁體中文（zh-TW）
 
 ---
+
+## Prompt #2
+
+**時間**：2026-02-08
+
+**任務**：OpenClaw Memory 子系統逆向工程與架構解析（6 個階段）
+
+**指令摘要**：
+針對 OpenClaw 的 Memory（記憶體）機制執行深度逆向工程分析，產出六份專題報告：
+1. Phase 1 — Memory 機制探索：識別所有相關原始碼、概念定義、CRUD 進入點
+2. Phase 2 — Memory 架構分析：完整架構地圖、資料模型、儲存後端、生命週期、索引策略
+3. Phase 3 — Memory 資料流與整合：完整資料流追蹤、跨子系統整合、介面契約、事件驅動行為
+4. Phase 4 — Memory 設定與邊界條件：設定參數編錄、限額、邊界情況、錯誤處理
+5. Phase 5 — Memory 依賴關係對映：內部依賴、外部依賴、依賴關係圖
+6. Phase 6 — 彙整摘要與索引更新：產出摘要報告並更新 `00_master_index.md`
+
+**前置評估結果**：
+- ✅ 01–06 號報告已完成（前次任務產出）
+- ✅ 00 號總索引已完成
+- ❌ 07–12 號報告均不存在，全部六個階段需從頭開始
+
+**分析範圍**：
+- `src/memory/` — 43 個 TypeScript 檔案（32 個原始碼 + 11 個測試）
+- `src/agents/tools/memory-tool.ts` — Agent 記憶體工具
+- `src/agents/memory-search.ts` — 搜尋設定解析
+- `src/auto-reply/reply/agent-runner-memory.ts` — Memory Flush 機制
+- `src/hooks/bundled/session-memory/handler.ts` — Session Memory Hook
+- `src/cli/memory-cli.ts` — CLI 記憶體指令
+- `src/config/types.memory.ts`、`types.tools.ts`、`zod-schema.agent-runtime.ts` — 設定型別與驗證
+
+**產出物**：
+- `deus_doc/07_memory_mechanism_discovery.md` — 檔案清單、概念定義、CRUD 進入點
+- `deus_doc/08_memory_architecture_analysis.md` — 七層架構、資料模型、儲存後端、生命週期
+- `deus_doc/09_memory_data_flow_and_integration.md` — 四條資料流路徑、八個整合點、事件驅動
+- `deus_doc/10_memory_configuration_and_constraints.md` — 50+ 設定參數、降級策略、邊界條件
+- `deus_doc/11_memory_dependency_mapping.md` — 依賴圖、健康度評估
+- `deus_doc/12_memory_reverse_engineering_summary.md` — 架構洞察、設計亮點、風險建議
+- `deus_doc/00_master_index.md` — 更新至 v1.1，納入 07–12 號報告
+
+**語言要求**：所有輸出使用台灣繁體中文（zh-TW）
+
+---
